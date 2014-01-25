@@ -1,0 +1,15 @@
+{
+    "name": "koriym/fusion-cache",
+    "description":"Memory+File hybrid cache system",
+    "keywords":[
+        "cache"
+    ],
+    "autoload":{
+        "psr-0":{
+            "Koriym\\FusionCache": "src/"
+        }
+    },
+    "require": {
+        "doctrine/cache": "1.*"
+    }
+}
