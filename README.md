@@ -14,7 +14,7 @@ use Koriym\FusionCache\DoctrineCache as FusionCache;
 use Doctrine\Common\Cache\ApcCache;
 use Doctrine\Common\Cache\FilesystemCache;
 
-$cache = new FusionCache(new ApcCache, new FilesystemCache(sys_get_temp_dir()));
+$cache = new FusionCache(new ApcCache, function () {return new FilesystemCache(sys_get_temp_dir());});
 $data = $cache->fetch('cache_key')
 ```
 
