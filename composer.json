@@ -1,8 +1,17 @@
 {
     "name": "koriym/fusion-cache",
-    "description":"Memory+File hybrid cache system",
+    "description":"Memory+File hybrid cache",
+    "authors": [
+        {
+            "name": "Akihito Koriyama",
+            "email": "akihito.koriyama@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/koriym/Koriym.FusionCache",
+	"license": "BSD-3-Clause",
     "keywords":[
-        "cache"
+        "cache",
+		"doctrine"
     ],
     "autoload":{
         "psr-0":{
